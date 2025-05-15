@@ -1,0 +1,26 @@
+# === IntelliJ 기본 무시 항목 ===
+.idea/
+*.iml
+out/
+
+# 특정 설정은 공유할 수 있음 (위 .idea/보다 나중에 예외 설정)
+!.idea/inspectionProfiles/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# 사용자별 개인 설정 무시
+.idea/workspace.xml
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/httpRequests/
+.idea/shelf/
+
+# === 기타 무시 파일 ===
+# OS
+.DS_Store
+
+# IDE 캐시 및 백업
+*.log
+*.tmp
+*.zip
+*.meta
