@@ -22,4 +22,8 @@ select first_name, last_name, gender from employees;
 -- first_name, gender, hire_date 출력하기
 select first_name, gender,hire_date from employees;
 
+-- employees db 에서 각 부서별 관리잘르 출력, 단 현 재직자만
+select*from dept_manager where to_date = '9999-01-01';
 
+-- 부서번호 d005 부서의 현재 관리자 정보를 출력하세요
+select*from dept_manager where to_date = '9999-01-01' and dept_no = 'd005';
