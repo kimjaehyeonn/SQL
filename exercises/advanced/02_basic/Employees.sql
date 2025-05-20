@@ -1,5 +1,6 @@
+use employees;
 
--- employees db 에서 각 부서별 관리잘르 출력, 단 현 재직자만
+-- employees db 에서 각 부서별 관리자를 출력, 단 현 재직자만
 select*from dept_manager where to_date = '9999-01-01';
 
 -- 부서번호 d005 부서의 현재 관리자 정보를 출력하세요
